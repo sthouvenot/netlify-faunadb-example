@@ -8,7 +8,7 @@ console.log(chalk.cyan('Creating your FaunaDB Database...\n'))
 
 // Has var. Do the thing
 if (process.env.FAUNADB_SERVER_SECRET) {
-  createFaunaDB(fnADx9Xi3PACACiTIjc2Pb7z4cNM2Ij6etRQYktT).then(() => {
+  createFaunaDB("fnADx9Xi3PACACiTIjc2Pb7z4cNM2Ij6etRQYktT").then(() => {
     console.log('Fauna Database schema has been created')
     console.log('Claim your fauna database with "netlify addons:auth fauna"')
   })
