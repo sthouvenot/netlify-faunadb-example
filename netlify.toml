@@ -8,3 +8,4 @@
 [dev]
   # Local dev command. A.k.a npm start
   command = "react-scripts start"
+  FAUNADB_SERVER_SECRET = fnADx9Xi3PACACiTIjc2Pb7z4cNM2Ij6etRQYktT
