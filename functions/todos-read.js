@@ -6,7 +6,7 @@ const q = faunadb.query
 exports.handler = (event, context) => {
   /* configure faunaDB Client with our secret */
   const client = new faunadb.Client({
-    secret: fnADx9Xi3PACACiTIjc2Pb7z4cNM2Ij6etRQYktT
+    secret: "fnADx9Xi3PACACiTIjc2Pb7z4cNM2Ij6etRQYktT"
   }) 
   const id = getId(event.path)
   console.log(`Function 'todo-read' invoked. Read id: ${id}`)
